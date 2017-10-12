@@ -1,8 +1,12 @@
-#include <iostream>
-using namespace std;
+#include "sample.h"
+using namespace exercises;
 
 int main()
 {
-	cout << "Hello World!\n";
+	Exercise ex;
+	ex.x=3;
+	ex.y="Hello";
+ex.print();
+std::cout<< "\n";
 	return 0;
 }
